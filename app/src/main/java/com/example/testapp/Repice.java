@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+
 public class Repice implements Parcelable {
 
     public Integer idRecipe;
     public String fullRecipe;
     public String nameRecipe;
-
     public String image;
     public String calory;
     public String timeGot;
@@ -74,7 +74,6 @@ public class Repice implements Parcelable {
         this.calory = calory;
         this.timeGot = timeGot;
     }
-
 
     protected Repice(Parcel in) {
         idRecipe = in.readInt();

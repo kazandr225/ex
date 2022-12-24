@@ -29,6 +29,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+
     private AdapterRecipe pAdapter;
 
     Spinner spinner;
